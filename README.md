@@ -187,3 +187,21 @@ python main.py export budget_data.json
 python main.py export budget_data.csv -f csv
 ```
 
+## 💡 Budget Management Tips
+
+1. **Track Everything**: Record all your income and expenses for an accurate view of your finances
+
+2. **Use Categories Consistently**: Develop a consistent categorization system for easier analysis
+
+3. **Set Realistic Budgets**: Start with realistic budget amounts based on your actual spending
+
+4. **Regular Reviews**: Review your spending weekly to stay on track with your budget goals
+
+5. **Distinguish Needs vs. Wants**: Categorize expenses as either necessities or discretionary spending
+
+6. **Use the 50/30/20 Rule**: Allocate 50% to needs, 30% to wants, and 20% to savings
+
+7. **Emergency Fund**: Build an emergency fund to cover unexpected expenses
+
+8. **Export Regularly**: Export your data regularly as a backup
+
