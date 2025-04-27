@@ -12,3 +12,18 @@ A command-line budget tracking tool to help you manage your income, expenses, an
 - 🔍 Filter transactions by type or category
 - 📤 Export data to JSON or CSV formats
 - 💾 Store data locally in JSON format
+
+## 🚀 Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/budget-tracker.git
+cd budget-tracker
+```
+
+2. Make the script executable (Unix/Linux/macOS):
+```bash
+chmod +x main.py
+```
+
+
