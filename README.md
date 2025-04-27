@@ -100,3 +100,90 @@ python main.py export <output_file> [options]
 
 - `-d, --data`: Data file (default: ~/.budget_tracker.json)
 
+## 📝 Examples
+
+### Add transactions:
+```bash
+# Add an expense
+python main.py add -50 "Grocery shopping" -c "Food"
+```
+
+```bash
+# Add income
+python main.py add 1000 "Salary" -c "Income" -d "2023-09-01"
+```
+
+```bash
+# Add an expense with a specific date
+python main.py add -25.50 "Restaurant" -c "Dining" -d "2023-09-15"
+```
+
+### List transactions:
+```bash
+# List all transactions
+python main.py list
+```
+
+```bash
+# List transactions for a specific month
+python main.py list -s "2023-09-01" -e "2023-09-30"
+```
+
+```bash
+# List only expenses
+python main.py list -x
+```
+
+```bash
+# List transactions for a specific category
+python main.py list -c "Food"
+```
+
+```bash
+# List the 5 most recent transactions
+python main.py list -l 5
+```
+
+### Set budgets:
+```bash
+# Set a monthly budget for food expenses
+python main.py budget "Food" -300
+```
+
+```bash
+# Set a monthly budget for income
+python main.py budget "Income" 3000
+```
+
+### View budget summary:
+```bash
+# View summary for the current month and year
+python main.py summary
+```
+
+```bash
+# View summary for a specific month
+python main.py summary -m 9
+```
+
+```bash
+# View summary for a specific year
+python main.py summary -y 2023
+```
+
+```bash
+# View summary for a specific month and year
+python main.py summary -m 9 -y 2023
+```
+
+### Export data:
+```bash
+# Export to JSON
+python main.py export budget_data.json
+```
+
+```bash
+# Export to CSV
+python main.py export budget_data.csv -f csv
+```
+
