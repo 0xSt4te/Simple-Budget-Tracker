@@ -41,3 +41,62 @@ python main.py <command> [options]
 - `summary`: Show budget summary
 - `export`: Export data to a file
 
+## 📋 Command Options
+
+### Add a transaction:
+```bash
+python main.py add <amount> <description> [options]
+```
+
+#### Options:
+
+- `-c, --category`: Transaction category
+- `-d, --date`: Transaction date (YYYY-MM-DD)
+
+### Delete a transaction:
+```bash
+python main.py delete <id>
+```
+
+### List transactions:
+```bash
+python main.py list [options]
+```
+
+#### Options:
+
+- `-s, --start`: Start date (YYYY-MM-DD)
+- `-e, --end`: End date (YYYY-MM-DD)
+- `-c, --category`: Filter by category
+- `-l, --limit`: Limit number of transactions shown
+- `-i, --income`: Show only income
+- `-x, --expenses`: Show only expenses
+
+### Set budget for a category:
+```bash
+python main.py budget <category> <amount>
+```
+
+### Show budget summary:
+```bash
+python main.py summary [options]
+```
+
+#### Options:
+
+- `-m, --month`: Month (1-12)
+- `-y, --year`: Year
+
+### Export data:
+```bash
+python main.py export <output_file> [options]
+```
+
+#### Options:
+
+- `-f, --format`: Export format (json, csv)
+
+### Global options:
+
+- `-d, --data`: Data file (default: ~/.budget_tracker.json)
+
