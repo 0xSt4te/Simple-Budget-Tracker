@@ -17,7 +17,7 @@ A command-line budget tracking tool to help you manage your income, expenses, an
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/budget-tracker.git
+git clone https://github.com/0xSt4te/budget-tracker.git
 cd budget-tracker
 ```
 
@@ -26,4 +26,18 @@ cd budget-tracker
 chmod +x main.py
 ```
 
+## 🔍 Usage
+
+```bash
+python main.py <command> [options]
+```
+
+## ⚙️ Commands
+
+- `add`: Add a new transaction
+- `delete`: Delete a transaction
+- `list`: List transactions
+- `budget`: Set budget for a category
+- `summary`: Show budget summary
+- `export`: Export data to a file
 
