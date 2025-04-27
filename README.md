@@ -205,3 +205,6 @@ python main.py export budget_data.csv -f csv
 
 8. **Export Regularly**: Export your data regularly as a backup
 
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
